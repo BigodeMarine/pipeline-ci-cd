@@ -45,5 +45,30 @@ Certifique-se de ter instalado:
 
 Clone o repositório:
 
-```bash
-git clone https://github.com/BigodeMarine/pipeline-ci-cd.git
+```
+git clone https://github.com/BigodeMarine/pipeline-ci-cd.git  
+```
+Acesse a pasta:  
+cd pipeline-ci-cd  
+
+Instale as dependências:  
+npm install  
+
+Rode em modo desenvolvimento:  
+npm run dev  
+
+Acesse no navegador:  
+http://localhost:3000  
+
+🧪 Rodando os testes  
+
+npm run test  
+
+🧼 Rodando o Lint  
+
+npm run lint  
+
+Build para produção  
+
+npm run build
+ 
