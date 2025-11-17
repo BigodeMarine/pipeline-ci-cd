@@ -46,4 +46,4 @@ Certifique-se de ter instalado:
 Clone o repositório:
 
 ```bash
-git clone https://github.com/<SEU-USUARIO>/<NOME-DO-REPO>.git
+git clone https://github.com/BigodeMarine/pipeline-ci-cd.git
