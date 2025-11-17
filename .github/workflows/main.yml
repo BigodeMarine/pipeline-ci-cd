@@ -11,23 +11,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout do repositório
+      - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      - name: 🧩 Configurar Node.js
+      - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
 
-      - name: 📦 Instalar dependências
+      - name: Instalar dependências
         run: npm ci
 
-      - name: 🔍 Rodar ESLint
+      - name: Rodar ESLint
         run: npm run lint
 
-      - name: 🧪 Rodar Testes
+      - name: Rodar Testes
         run: npm run test
 
-      - name: 🏗️ Rodar Build
+      - name: Rodar Build
         run: npm run build
+
+      
