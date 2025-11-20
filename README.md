@@ -30,7 +30,7 @@ Inclui testes automatizados, análise de código com ESLint e execução de buil
 
 ---
 
-## Link do Projeto
+## Link do Projeto publicado
 ```
 https://pipeline-ci-cd-sigma.vercel.app
 ```
