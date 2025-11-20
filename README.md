@@ -30,6 +30,11 @@ Inclui testes automatizados, análise de código com ESLint e execução de buil
 
 ---
 
+## Link do Projeto
+```
+https://pipeline-ci-cd-sigma.vercel.app
+```
+
 ## 🛠️ Como rodar o projeto localmente
 
 ### 📌 Pré-requisitos
